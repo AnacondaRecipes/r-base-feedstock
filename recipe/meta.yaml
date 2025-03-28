@@ -201,27 +201,27 @@ test:
   files:
     - test-svg.R
   downstreams:
-    r-matrix  # 0 dependencies, compiled
-    r-rcpp  # 0 dependencies, compiled
-    r-data.table  # 0 dependencies, compiled
-    r-stringi  # 0 dependencies, compiled
-    r-ijtiff  # 1 dependency, compiled (uses libtiff)
-    r-ragg  # 1 dependency, compiled (uses libtiff)
-    r-gert  # 1 dependency, compiled
-    r-dplyr  # 2 dependencies, compiled
-    r-igraph  # 2 dependencies, compiled
-    r-rgl  # 2 dependencies, compiled
-    r-svglite  # 3 dependencies, compiled
-    r-patchwork  # 3 dependencies, noarch
-    r-ggplotify  # 4 dependencies, noarch
-    r-tidytree  # 5 dependencies, noarch
-    r-nlme  # 2 dependencies, compiled
-    r-caret  # 3 dependencies, compiled
-    r-purrr  # 3 dependencies, compiled
-    r-stringi  # 0 dependencies, compiled
-    r-readr  # 4 dependencies, compiled
-    r-mgcv  # 4 dependencies, compiled
-    r-survival  # 3 dependencies, compiled
+    - r-matrix  # 0 dependencies, compiled
+    - r-rcpp  # 0 dependencies, compiled
+    - r-data.table  # 0 dependencies, compiled
+    - r-stringi  # 0 dependencies, compiled
+    - r-ijtiff  # 1 dependency, compiled (uses libtiff)
+    - r-ragg  # 1 dependency, compiled (uses libtiff)
+    - r-gert  # 1 dependency, compiled
+    - r-dplyr  # 2 dependencies, compiled
+    - r-igraph  # 2 dependencies, compiled
+    - r-rgl  # 2 dependencies, compiled
+    - r-svglite  # 3 dependencies, compiled
+    - r-patchwork  # 3 dependencies, noarch
+    - r-ggplotify  # 4 dependencies, noarch
+    - r-tidytree  # 5 dependencies, noarch
+    - r-nlme  # 2 dependencies, compiled
+    - r-caret  # 3 dependencies, compiled
+    - r-purrr  # 3 dependencies, compiled
+    - r-stringi  # 0 dependencies, compiled
+    - r-readr  # 4 dependencies, compiled
+    - r-mgcv  # 4 dependencies, compiled
+    - r-survival  # 3 dependencies, compiled
 
 about:
   home: https://www.r-project.org/
