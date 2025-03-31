@@ -1,6 +1,8 @@
 aggregate_check: false
 
-#upload_channels: [r]
+upload_channels: [r]
+
+pbp_only_deployment: prod
 
 channels:
   - https://staging.continuum.io/prefect/fs/libtiff-feedstock/pr21/e3ccbbe
