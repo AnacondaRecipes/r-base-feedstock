@@ -1,4 +1,6 @@
 aggregate_check: false
 
+#upload_channels: [r]
+
 channels:
   - https://staging.continuum.io/prefect/fs/libtiff-feedstock/pr21/e3ccbbe
