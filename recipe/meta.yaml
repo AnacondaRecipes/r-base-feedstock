@@ -189,8 +189,8 @@ test:
     # TODO does not work on windows, because winCairo.dll is missing
     - Rscript test-svg.R                 # [not win]
     - open                               # [win]
-     # There doesn't seem to be a way to test this one
-     # - RSetReg                         # [win]
+    # There doesn't seem to be a way to test this one
+    # - RSetReg                         # [win]
     - Rfe --help                         # [win]
     - Rterm --help                       # [win]
     - Rterm --version                    # [win]
@@ -200,28 +200,6 @@ test:
     - if not exist %PREFIX%\\Lib\\R\\bin\\x64\\R.lib exit 1  # [win]
   files:
     - test-svg.R
-  downstreams:
-    - r-matrix
-    - r-rcpp
-    - r-data.table
-    - r-stringi
-    - r-ijtiff  # 1 dependency, compiled (uses libtiff)
-    - r-ragg  # 1 dependency, compiled (uses libtiff)
-    - r-gert
-    - r-dplyr
-    - r-igraph
-    - r-rgl
-    - r-svglite
-    - r-patchwork
-    - r-ggplotify
-    - r-tidytree
-    - r-nlme
-    - r-caret
-    - r-purrr
-    - r-stringi
-    - r-readr
-    - r-mgcv
-    - r-survival
 
 about:
   home: https://www.r-project.org/
