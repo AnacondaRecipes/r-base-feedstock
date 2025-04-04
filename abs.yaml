@@ -3,5 +3,5 @@ aggregate_check: false
 upload_channels: [r]
 
 channels:
-  - https://staging.continuum.io/prefect/fs/libtiff-feedstock/pr21/475b812
+  - https://staging.continuum.io/prefect/fs/libtiff-feedstock/pr21/34f8d4b
 
