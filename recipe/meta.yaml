@@ -137,7 +137,7 @@ requirements:
     - {{native}}zlib 1.2.8               # [win]
     - {{native}}zlib                     # [not win]
     - {{native}}libtiff >=4.0.3,<4.0.8   # [win]
-    - {{native}}libtiff 4.7.0            # [not win]
+    - {{native}}libtiff {{ libtiff }}            # [not win]
     - {{native}}openblas-devel           # [not win]
     - {{native}}openblas                 # [win]
 
